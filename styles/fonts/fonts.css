@@ -1,5 +1,5 @@
 @font-face {
-  src:
+  src: local("inter"),
     url(./Inter/Inter-Regular.woff2) format('woff2'),
     url(./Inter/Inter-Regular.woff) format('woff');
   font-family: 'inter';
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  src:
+  src: local("inter"),
     url(./Inter/Inter-Bold.woff2) format('woff2'),
     url(./Inter/Inter-Bold.woff) format('woff');
   font-family:'inter';
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  src:
+  src: local("inter"),
     url(./Inter/Inter-SemiBold.woff2) format('woff2'),
     url(./Inter/Inter-SemiBold.woff) format('woff');
   font-family:'inter';

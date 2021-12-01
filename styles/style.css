@@ -1,9 +1,6 @@
 @import url(./fonts/fonts.css);
 @import url(./normalize.css);
 
-p{
-  font-weight: 700;
-}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
