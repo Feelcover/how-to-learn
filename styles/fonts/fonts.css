@@ -1,7 +1,7 @@
 @font-face {
   src:
-  url(./Inter/Inter-Regular.woff2) format('woff2'),
-  url(./Inter/Inter-Regular.woff) format('woff');
+    url(./Inter/Inter-Regular.woff2) format('woff2'),
+    url(./Inter/Inter-Regular.woff) format('woff');
   font-family: 'inter';
   font-weight: normal;
 
@@ -9,15 +9,15 @@
 
 @font-face {
   src:
-  url(./Inter/Inter-Bold.woff2) format('woff2'),
-  url(./Inter/Inter-Bold.woff) format('woff');
+    url(./Inter/Inter-Bold.woff2) format('woff2'),
+    url(./Inter/Inter-Bold.woff) format('woff');
   font-family:'inter-bold';
   font-weight: 700;
 }
 @font-face {
   src:
-  url(./Inter/Inter-SemiBold.woff2) format('woff2'),
-  url(./Inter/Inter-SemiBold.woff) format('woff');
+    url(./Inter/Inter-SemiBold.woff2) format('woff2'),
+    url(./Inter/Inter-SemiBold.woff) format('woff');
   font-family:'inter-semibold';
   font-weight: 600;
 }
