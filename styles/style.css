@@ -15,7 +15,6 @@
 
 .header {
   box-sizing: border-box;
-  border: 1px solid red;
   display: flex;
   position: relative;
   height: 100vh;
@@ -25,16 +24,15 @@
   justify-content: center;
   flex-direction: column;
   background-color: #f2f2f2;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
 .logo{
-  border: 1px solid red;
   width: 183px;
   height: 32px;
 }
 .logo_place_header{
-  border: 1px solid red;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -42,7 +40,6 @@
 }
 
 .header__title{
-  border: 1px solid red;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -53,7 +50,6 @@
 }
 
 .header__subtitle{
-  border: 1px solid red;
   line-height: 25px;
   font-style: 18px;
   font-weight: normal;
@@ -72,20 +68,18 @@
 }
 
 .header__main-illustration{
-  border: 1px solid red;
   width: 765px;
   height: 608px;
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 1;
-  object-fit:cover;
+  object-fit: cover;
   object-position: right bottom;
 
 }
 
 .header__square-pic{
-  border: 1px solid red;
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
