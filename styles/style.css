@@ -51,7 +51,7 @@
 
 .header__subtitle{
   line-height: 25px;
-  font-style: 18px;
+  font-size: 18px;
   font-weight: normal;
   width: 388px;
   position: absolute;
@@ -59,6 +59,7 @@
   bottom: 30px;
   z-index: 2;
   margin: 0;
+
 }
 
 .header__link{
@@ -89,3 +90,59 @@
   z-index: 0;
   margin: 0;
 }
+
+
+
+
+
+
+
+.description{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+
+
+.two-columns{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  width: 80%;
+}
+
+.two-columns__brief{
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text{
+  flex-direction: column;
+  line-height: 34px;
+  font-size: 24px;
+  min-width: 784px;
+  font-weight: normal;
+  width: 80%;
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  margin:0 0 30px;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent{
+  font-weight: 700;
+}
+
+
