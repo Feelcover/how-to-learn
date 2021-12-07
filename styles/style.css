@@ -109,7 +109,6 @@
 .two-columns{
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   width: 80%;
 }
 
@@ -142,7 +141,7 @@
 }
 
 .two-columns__span-accent{
-  font-weight: 700;
+  font-weight: 600;
 }
 
 
