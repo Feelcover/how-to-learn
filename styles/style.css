@@ -335,6 +335,7 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
+  margin: 0;
 
 }
 
@@ -342,6 +343,7 @@
   display: flex;
   flex-direction: column;
   color: #f2f2f2;
+  margin: 0;
 }
 
 .footer__column_content_copyright{
@@ -358,23 +360,24 @@
 .footer__author{
   line-height: 25px;
   font-size: 18px;
-  margin: 18px 0;
+  padding: 18px 0;
   font-weight: normal;
+  margin: 0;
 }
 
 .footer__column_content_info{
-
+  margin: 0;
 }
 
 .footer__column_content_social{
-
+  margin: 0;
 }
 
 .footer__column-heading{
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  margin: 10px 0 20px;
+  margin: 10px 0;
 }
 
 .footer__column-link{
@@ -383,15 +386,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 0 16px;
+  margin: 0;
 }
 
 .footer__column-links{
   color: white;
   text-decoration: none;
-  margin: 0 0 10px 0;
+  margin: ;
   display: flex;
   text-align: left;
   font-weight: normal;
+  margin: 10px 0 0;
 }
 
 .social-icon{
