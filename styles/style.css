@@ -286,7 +286,7 @@
   background-image: url(../images/feinman.png);
   background-repeat: no-repeat;
   background-size: 867px, 637px;
-  background-position: bottom left;
+  background-position: bottom 10px left;
   background-color: #f2f2f2;
 }
 
@@ -328,7 +328,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0 0;
+  padding: 100px 0;
   margin: 0;
 }
 
@@ -339,7 +339,7 @@
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -363,6 +363,61 @@
   font-weight: normal;
   margin: 20px 0 0;
 }
+
+
+
+
+
+.khan{
+  background-color: #f2f2f2;
+  margin: 0;
+
+}
+
+.khan__container{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.khan__author{
+
+}
+
+.khan__title{
+
+}
+
+.khan__quote{
+
+}
+
+.khan__quote-author{
+
+}
+
+.khan__quote-author-subline{
+
+}
+
+.khan__book-container{
+
+}
+
+.khan__book-pickhan__buy-link{
+
+}
+
+.khan__book-pic{
+
+}
+
+.khan__buy-link{
+
+}
+
+
+
 
 
 
