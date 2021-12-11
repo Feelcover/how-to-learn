@@ -26,6 +26,7 @@
   flex-direction: column;
   background-color: #f2f2f2;
   margin: 0;
+  overflow: hidden;
 }
 
 .logo{
@@ -66,6 +67,11 @@
   color: #2f80ed;
   text-decoration: none;
   margin: 0;
+}
+.header__link:hover{
+  transition: .3s ease-out;
+  opacity: .7;
+  color: red;
 }
 
 .header__main-illustration{
@@ -306,13 +312,18 @@
 
 .feynman__link{
   position: absolute;
-  top: 50%;
+  bottom: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
   margin: 0;
+}
+.feynman__link:hover {
+  transition: .3s ease-out;
+  opacity: .7;
+  color: red;
 }
 
 
@@ -429,6 +440,12 @@
   text-decoration: none;
   margin: 0;
 }
+.khan__buy-link:hover{
+  transition: .3s ease-out;
+  opacity: .7;
+  color: red;
+}
+
 
 .khan__book-pic{
   width: 620px;
@@ -454,18 +471,31 @@
   padding: 90px 0;
   margin: 0;
   background-color: #1f1f1f;
-  z-index: 0;
+  z-index: -1;
   color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle{
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
+  width: 1000px;
+  height: 900px;
+  position: absolute;
+  right: -210px;
+  margin: 0;
 
 }
 
 .table_theme_dark{
-  margin: 0 auto 90px;
+  margin: 0 auto;
 }
 
 .table__cell_theme_dark{
   width: 200px;
-  margin: 80px 0 0;
+  margin: 0;
+  padding-top: 80px;
 }
 
 
@@ -491,6 +521,12 @@
 .resources-logo{
   width: 270px;
   margin: 0;
+}
+
+.resources__logo:hover{
+  transition: .5s ease-out;
+  transform: scale(1.2);
+  opacity: .8;
 }
 
 
@@ -529,10 +565,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
 }
 
 .logo_place_footer{
   height: 35px;
+  margin: 0;
 }
 
 .footer__author{
@@ -541,6 +579,12 @@
   padding: 18px 0;
   font-weight: normal;
   margin: 0;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.footer__author:hover{
+  transition: .3s ease-out;
+  opacity: .6;
 }
 
 .footer__column_content_info{
@@ -569,6 +613,7 @@
   margin: 0;
 }
 
+
 .footer__column-links{
   color: white;
   text-decoration: none;
@@ -578,10 +623,35 @@
   font-weight: normal;
   padding: 10px 0 0;
 }
+.footer__column-links:hover{
+  transition: .3s ease-out;
+  opacity: .6;
+}
 
 .social-icon{
   width: 16px;
   height: 16px;
   padding: 0 5px 0 0;
   margin: 0;
+}
+
+
+
+
+
+@keyframes rotation {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.rotation{
+  animation: rotation 20s infinite linear;
 }
