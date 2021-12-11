@@ -420,6 +420,7 @@
 .khan__book-container{
   display: flex;
   margin: 0;
+  overflow: hidden;
 }
 
 .khan__buy-link{
