@@ -4,6 +4,8 @@
   text-decoration: none;
   margin: 0;
   z-index: 2;
+  color: #2f80ed;
+  align-self: flex-start;
 }
 
 
